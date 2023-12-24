@@ -367,6 +367,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin: 0;
+    
    
 }
 
@@ -535,8 +536,8 @@ max-width: 50%;
 .climb-titlebox{
     flex-direction: column;
     align-items: start;
-    padding-bottom: 5.5vh;
-    padding-top: 1.5vh;
+    padding-bottom: 3.4vh;
+    padding-top: 0vh;
    
 
     
@@ -545,6 +546,12 @@ max-width: 50%;
 .title-paragraph-right{
     margin-left: 0;
     padding-top: 2vh;
+    font-size: 16px;
+}
+
+  /* Title paragraph font size for mobile */
+  .title-paragraph, .gridcolumn-set p{
+    font-size: 14px
 }
 
 
@@ -598,6 +605,13 @@ max-width: 50%;
     
     position: static;
     padding: 8vh 13vw;
+}
+
+
+/* font size for copyrite on mobile */
+
+.cp-rite{
+    font-size: 0.5rem;
 }
 
 
