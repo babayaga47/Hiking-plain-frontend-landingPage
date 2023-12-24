@@ -1,0 +1,608 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.uni-paddingg{
+    padding: 0 18%;
+}
+
+
+.first-section-block-container{
+    height: 100vh;
+}
+
+#first-section-block {
+    background-image: url(images/FirstSectionBgSizeImg.png);
+    background-size: 100% 100%;
+    height: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+   
+   
+}
+
+
+
+/* Top Nav-bar */
+
+.top-navbar-whitee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.logo-wrapper img{
+    width: calc(42px + 1.4vw);
+    
+}
+
+
+
+.navbar-2-links{
+    display: flex;
+    gap: 8%;
+    width: 100%;
+    justify-content: end;
+    
+    
+}
+
+
+
+.navbar-2-links a{
+   
+    color: white;
+    text-decoration-thickness: 1.1px;
+    text-underline-offset: 4px;
+   
+   
+    
+}
+
+.navbar-2-links h4{
+    font-size: calc(0.1rem + 1vw);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 3px;
+    
+    
+}
+
+
+
+
+
+
+
+
+/* First Section Breaker */
+
+.first-section-breaker{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.breaker-links-container{
+    display: flex;
+    gap: 8%;
+    width: 90%;
+    justify-content: end;   
+    padding: 2% 0;
+}
+
+
+
+.logo-card-wrapper img{
+    width: calc(4rem + 10vw);
+    padding: 0.6rem 0;
+}
+
+.breaker-links-container a{
+    color: #414f6b;
+    text-decoration-thickness: 1.1px;
+    text-underline-offset: 4px;
+   
+}
+
+.breaker-links-container h4{
+    font-size: calc(0.1rem + 1vw);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+
+/* History Section */
+
+#number-1-history{
+    height: 100vh;
+}
+
+.history-container{
+    background-image: url(images/HistorySectionBG.png);
+    background-size: 100% 100%;
+    height: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.history-title-flex{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+   
+  
+}
+
+.history-titleone{
+    display: flex;
+    align-items: flex-end;
+}
+
+.history-titleone h1{
+    font-size: calc(7rem + 3.3vw);
+    margin: 0;
+    color: #698497;
+   
+    font-weight: bold;
+    line-height: 1;
+
+}
+
+.history-titleright{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: end;
+    position: relative;
+    
+}
+
+.history-blue-title h3{
+    margin: 0;
+    color: #414f6b;
+    font-size: calc(2rem + 1vw);
+    position: absolute;
+    bottom: 35px;
+    left: 5px;
+    
+}
+
+.big-dot{ 
+    color:  #698497;
+    font-size: calc(8.436rem + 2vw);
+  
+    margin: 0;
+    line-height:  1;
+
+
+    
+}
+
+
+
+
+
+
+
+/* TITLE PARAGRAPH */
+
+.title-paragraph{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: calc(70px + 1vw);
+    margin-top: 0;
+    
+    
+}
+
+
+
+/* Carousel */
+
+.carousel-background-wrappp{
+    height: 24%;
+    width: 100%;
+    background-color: #3e4b61;
+    position: absolute;
+    bottom: 0; 
+    opacity: 0.9;
+    
+}
+
+.owl-carousel{
+    width: 64%; height: 100%;
+}
+
+
+.owl-carousel.owl-loaded.owl-drag{
+    margin: 0 auto;
+    
+}
+
+.owl-stage-outer{
+    height: 75%;
+    padding-top: 12px;
+}
+
+.owl-carousel .owl-stage {
+    height: 100%;
+}
+
+.owl-item{
+    height: 100%;
+    
+}
+
+.item{
+    height: 100%;
+}
+.item img{
+    height: 100%;
+}
+
+
+
+
+/* White background breaker section */
+
+.climb-titlebox{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+}
+
+
+.title-paragraph-right{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: calc(8rem + 1vw);
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+
+/* Tabs to accordian */
+
+.pageone{
+    background-image: url(images/LastsectionBG.png);
+    background-size: 102% 200%;
+    background-position: center ;   
+       
+    height: 80vh;
+
+}
+
+.pagetwo{
+    background-image: url(images/lastsectionBG2.png);
+    height: 80vh;
+    background-size: 100% 170%;
+    background-position:  center 0%;   
+}
+
+/* Bootstrap tabs carousel custom appearance setting */
+
+.mb-3 {
+    margin-bottom: 0 !important;
+    background-color: #414f6b;
+    gap: 1.2%;
+    
+}
+
+.nav {
+   padding-left: 18%;
+}
+
+.nav-pills .nav-link {
+    background: 0 0;
+    color: #b0b4be;
+    border-radius: 0;
+    font-family: 'Oswald', sans-serif;
+    padding: 0.7rem 1rem; 
+    font-size: calc(1.3rem + 0.2vw);
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 7px;
+}
+
+
+
+.nav-pills .nav-link.active {
+    color:  #414f6b;
+    background-color: #b0b4be;
+  
+    
+    
+}
+
+
+/* Schedule Card */
+
+.info-carrd{
+    width: max-content;
+ 
+    background: rgb(255, 255, 255, 0.7);
+    position: relative;
+    top: 20%;
+    left: 22%;
+    padding: 3vh 3vw;
+}
+
+
+.info-carrd h3{
+    font-size: calc(2rem + 1vw);
+    color: #414f6b;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.gridcolumn-set{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    margin-top: 2.5vh;
+}
+
+.left-pading{
+    padding-left: 1.8vw;
+}
+
+.gridcolumn-set p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+   
+}
+
+.left-pading > p:nth-child(3),
+.left-pading > p:nth-child(4),
+.left-boxx > p:nth-child(3),
+.left-boxx > p:nth-child(4) {
+  margin-top: 3.5vh; 
+}
+
+
+
+/* Footer p tag settings */
+
+.cp-rite{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    color:#62769F;
+    font-size: 0.8rem;
+    max-width: 40%;
+}
+
+.cp-rite:hover {
+    color: silver /* Your hover color */
+  }
+
+.filter{
+    background-color: #404F6C;
+}
+
+.image-container{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30.5%;
+    height: 100%;
+    background-color: rgba(98,118,159, 0.5);
+  }
+
+  .image-container:hover .overlay {
+    opacity: 0; 
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width : 1410px) {
+
+   /* Title paragraph font size for wide screen */
+   .title-paragraph, .gridcolumn-set p{
+    font-size: calc(0.2rem + 1.2vw);
+}
+
+   /* Title paragraph font size for last section different styling */
+
+   .title-paragraph-right{
+    font-size: calc(0.6rem + 1vw);
+   }
+
+
+.nav-pills .nav-link{
+    font-size: calc(1.6rem + 1vw);
+}
+
+/* Footer copyrite styling for wide screen */
+
+.cp-rite{
+    font-size: calc(0.6rem + 0.5vw);
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1410px){
+
+
+
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 5px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        height: 7px;
+        width: 7px;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    #first-section-block {
+        background-size: 230% 100%;
+        background-position: 39% center;
+    }
+
+    .history-container{
+        background-size: 350% 210%;
+        background-position: 40% 25%;
+        
+    
+    }
+
+    .uni-paddingg{
+        padding: 0 10%;
+
+    }
+    
+    .navbar-2-links h4{
+        font-size: 0.8rem;
+    }
+
+    .navbar-2-links{
+        gap: 10%;
+    }
+
+.top-navbar-whitee{
+padding-top: 2%;
+}
+
+.breaker-links-container{
+padding: 6% 0;
+max-width: 50%;
+}
+
+.breaker-links-container h4{ 
+ font-size: 0.7rem;
+}
+
+/* carousel padding resized for mobile */
+
+.owl-carousel{
+    width: 80%; 
+}
+
+/* 2nd white backgroun breaker 02 page for mobile */
+.climb-titlebox{
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 5.5vh;
+    padding-top: 1.5vh;
+   
+
+    
+}
+
+.title-paragraph-right{
+    margin-left: 0;
+    padding-top: 2vh;
+}
+
+
+
+
+/* NAv appearance setting custom  */
+.nav {
+    padding-left: 10%;
+    padding-right: 10%;
+   
+ }
+
+.nav-item{
+    flex-grow: 1;
+}
+
+ .nav-link{
+    width: 100%;
+ }
+
+ /* tabs background appearance adjust for mobile */
+ .pageone{
+  
+    background-size: 200% 130%;
+    background-position: center 5%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+}
+
+.pagetwo{
+   
+    background-size: 220% 120%;
+    background-position:  20% 0%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    flex-direction: column;
+}
+
+
+/* display changes for info card box on mobile */
+
+.info-carrd{
+    
+    position: static;
+    padding: 8vh 13vw;
+}
+
+
+
+
+
+
+}
