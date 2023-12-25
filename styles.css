@@ -15,7 +15,7 @@ body{
 }
 
 #first-section-block {
-    background-image: url(images/FirstSectionBgSizeImg.png);
+    background-image: url(images/FirstSectionBgSizeImg.jpg);
     background-size: 100% 100%;
     height: 100%;
     background-position: center ;
@@ -132,7 +132,7 @@ body{
 }
 
 .history-container{
-    background-image: url(images/HistorySectionBG.png);
+    background-image: url(images/HistorySectionBG.jpg);
     background-size: 100% 100%;
     height: 100%;
     background-position: center ;
@@ -282,7 +282,7 @@ body{
 /* Tabs to accordian */
 
 .pageone{
-    background-image: url(images/LastsectionBG.png);
+    background-image: url(images/LastsectionBG.jpg);
     background-size: 102% 200%;
     background-position: center ;   
        
@@ -291,7 +291,7 @@ body{
 }
 
 .pagetwo{
-    background-image: url(images/lastsectionBG2.png);
+    background-image: url(images/lastsectionBG2.jpg);
     height: 80vh;
     background-size: 100% 170%;
     background-position:  center 0%;   
